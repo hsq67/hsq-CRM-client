@@ -34,7 +34,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            --build-arg VITE_API_BASE_URL=http://13.202.187.15:5000 \
+            --build-arg VITE_API_BASE_URL=http://www.hsqtower.org\
             -t hsq-crm-client .
 
       - name: Tag Docker image
